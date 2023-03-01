@@ -1,0 +1,61 @@
+ul, li {
+    list-style: none;
+}
+
+.pp {
+    display: inline;
+    justify-content: center;
+}
+
+.center {
+    margin: 0 auto;
+    width: 50%;
+}
+
+body, html {
+    width: 100vw;
+}
+
+nav > a {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.white {
+    color: white
+}
+
+h1 {
+    text-align: center;
+    overflow: hidden;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box !important;
+}
+
+* {
+    overflow-x: hidden;
+}
+
+textarea, input[type=submit]{
+    width: 100%;
+}
+
+textarea {
+    resize: none !important;
+}
+
+body > div:nth-child(17) > ul{
+    padding-left: 0 !important;
+}
+
+.bg-danger>a{
+    width: 100%;
+    color: white !important;
+    text-decoration: none;
+}
+
+.bg-danger{
+    text-align: center !important;
+}
